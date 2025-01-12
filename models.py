@@ -95,7 +95,7 @@ class ChessAI(ABC):
         3. Execute winning captures/tactics.
         4. Protect your vulnerable pieces.
         5. Avoid repetitions and play to win
-        6. When your pieces are captured, look for counter-offensive.
+        6. When your pieces are captured, you must capture back.
 
         Best move given state of the game(UCI notation only):
         """
